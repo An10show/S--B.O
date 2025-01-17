@@ -15,10 +15,10 @@
 
 .Sorteio {
 
-    Width: 600px;
-    Height: 450px;
-    margin-top: 156px;
-    margin-left: 728px;
+    Width: 670px;
+    Height: 470px;
+    margin-top: 130px;
+    margin-left: 645px;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
     margin-left: 345px;
     border-radius: 3px;
     border: 1px;
-    gap: 17px;
+    
 
 }
 
@@ -77,8 +77,15 @@ input {
     font-weight: 500;
     font-size: 40px;
     line-height: 46.88px;
-    background: rgba(255, 255, 255, 1);
+    color: brown;
 
+}
+
+
+Espaço{ 
+
+    margin-left: 3px;
+    padding-left: 13px;
 }
 
 

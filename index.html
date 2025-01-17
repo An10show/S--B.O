@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Dado Sorteio.png" type="Dev-icon">
     <title>Sorteador Automatico</title>
 </head>
 
@@ -19,14 +20,16 @@
 
  <h2>Sortear um Número </h2>
 
- <div class="Espaço">
+ <div class="Espaço"><!--para as inpots ele usou o math.random js ese ite motra como podemos usar para algumas funcoes -->
+                     <!--se der errado pelo site tent colocar abrevido como esse aqui , favor comparar -- Math.floor(Math.random() * (max - min + 1)) + min;-->
 
-<input placeholder="Entre" class="Principal" type="text">
-<input placeholder="e"  class="Secudario">
+<input placeholder="Entre" class="Principal" type="number">
+<input placeholder="e"  class="Secudario" type="number">
 
  </div>
 
- <button>Sortear</button>
+ <button onclick="generateNunber()">Sortear</button>
 </body>
+<script src="./Scripts.js"></script>
 
 </html>
