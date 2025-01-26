@@ -37,7 +37,7 @@ h2 {
     margin-left: 345px;
     border-radius: 3px;
     border: 1px;
-    
+
 
 }
 
@@ -82,7 +82,7 @@ input {
 }
 
 
-Espaço{ 
+Espaço {
 
     margin-left: 3px;
     padding-left: 13px;
@@ -110,4 +110,258 @@ button:hover {
 
     box-shadow: 0 0 20px rgba(0, 255, 255, 01);
     transform: translateY(-3px);
+}
+
+
+
+.contato {
+
+    width: 38px;
+    margin-left: 1400px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width:1345px) {
+
+    .Sorteio {
+        margin-left: 300px;
+
+    }
+
+    h2 {
+
+        margin-left: 535px;
+    }
+
+    .Espaço {
+        margin-left: 0px;
+    }
+
+    button {
+        margin-left: 575px;
+    }
+
+    .contato {
+
+        margin-left: 1100px;
+    }
+
+}
+
+
+@media (max-width:1280px) {
+
+    .Sorteio {
+        margin-top: -3px;
+
+    }
+
+
+    h2 {
+
+        margin-top: 7px;
+
+    }
+
+
+}
+
+
+@media (max-width:1024px) {
+
+    .Sorteio {
+
+        width: 560px;
+        height: 500px;
+        margin-top: 245px;
+        margin-left: 234px;
+    }
+
+    h2 {
+        margin-left: 354px;
+        margin-top: -20px;
+        font-size: 37px;
+
+    }
+
+    .Espaço {
+
+        margin-left: -151px;
+        margin-top: 30px;
+
+    }
+
+    button {
+
+
+        margin-left: 425px;
+        margin-top: 168px;
+        font-size: 25px;
+        width: 147px;
+        height: 80px;
+        border: 4px;
+
+
+    }
+
+    .contato {
+
+        margin-left: 298px;
+        width: 65px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:1000px) {
+
+
+    .Sorteio {
+        margin-left: 130px;
+
+    }
+
+    h2 {
+
+        margin-left: 300px;
+    }
+
+    .Espaço {
+        margin-left: -225px;
+    }
+
+
+    button {
+
+        margin-left: 348px;
+
+    }
+
+    .contato {
+
+        margin-left: 415px;
+
+    }
+
+
+}
+
+
+@media (max-width:890px) {
+
+    .contato {
+
+        margin-left: 805px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    .Sorteio {
+
+        margin-left: 55px;
+        margin-top: 61px;
+
+    }
+
+
+    h2 {
+
+        margin-top: 25px;
+        margin-left: 230px;
+    }
+
+
+    .Principal {
+
+        margin-left: 272px;
+
+    }
+
+
+    button {
+
+        margin-left: 294px;
+
+    }
+
+
+    .contato {
+
+        margin-left: 670px;
+
+
+    }
+
+
+
+}
+
+
+@media (max-width:540px) {
+
+    .Sorteio {
+
+        width: 220px;
+        height: 180px;
+        margin-top: 43px;
+        margin-left: 62px;
+
+    }
+
+    h2 {
+
+        margin-left: 80px;
+        margin-top: 10px;
+        font-size: 23px;
+        color: #ffff;
+
+    }
+
+    .Principal {
+
+        width: 18%;
+        height: 45%;
+        margin-left: 31%;
+        margin-top: 2%;
+
+    }
+
+    .Secudario {
+
+        width: 18%;
+        height: 45%;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+
+
+    button {
+
+
+        margin-left: 21%;
+        margin-top: 5%;
+        width: 102px;
+        height: 40px;
+        font-size: 14px;
+
+    }
+
+
+    .contato {
+
+        margin-left: 15%;
+        width: 37px;
+        font-size: -44px;
+
+
+    }
+
+
 }
